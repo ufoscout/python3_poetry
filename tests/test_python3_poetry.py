@@ -5,4 +5,4 @@ def test_version() -> None:
     assert __version__ == '0.1.0'
 
 def test_square() -> None:
-    assert multiply(4, 3) == 9
+    assert multiply(4, 3) == 12
