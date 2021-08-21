@@ -4,6 +4,7 @@ Install poetry using the installation script from https://python-poetry.org
 
 ## Commands
 
+### Poetry
 Check version
 > poetry --version
 
@@ -24,6 +25,12 @@ Updating dependencies to their latest versions
 
 Build a wheel
 > poetry build
+
+### MyPy static type checks
+
+(inside virtual env) Check types
+> mypy --strict python3_poetry tests
+
 
 ## Virtual environments
 
