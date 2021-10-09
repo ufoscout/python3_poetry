@@ -26,10 +26,23 @@ Updating dependencies to their latest versions
 Build a wheel
 > poetry build
 
-### MyPy static type checks
+
+### Static type checks -> MyPy
 
 (inside virtual env) Check types
 > mypy --strict python3_poetry tests
+
+
+### Formatting -> autopep8
+
+(inside virtual env)
+> autopep8 --in-place --recursive .
+
+
+### Linting -> pylint 
+
+(inside virtual env)
+> pylint python3_poetry tests
 
 
 ## Virtual environments

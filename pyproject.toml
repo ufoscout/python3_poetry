@@ -5,11 +5,13 @@ description = ""
 authors = ["Francesco_Cina <mr.francesco.cina@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
+autopep8 = "^1.5.7"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 mypy = "^0.910"
+pylint = "^2.11.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
